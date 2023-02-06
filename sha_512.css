@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(255, 50, 50);
+ }
+ @media screen and (max-width:980px) {
+     body{
+         background-color: rgb(252, 0, 0);
+     }
+ }
+ .head{
+     text-align: center; 
+     color: rgb(225, 254, 2); 
+     font-size: 30px;
+     position: relative;
+     top: 15%;
+ }
+ @media screen and (max-width:980px) {
+ .head{ text-align: center; 
+     color: white; 
+     font-size: 30px;
+     position: relative;
+     top: 5%;
+ }
+ }
+ .grid-container{
+     margin-top: 200px;
+     display:grid;
+     grid-template-columns: auto auto;
+     
+ }
+ @media screen and (max-width:980px) {
+     .grid-container{
+         margin-top: 200px;
+         display:grid;
+         grid-template-columns: auto;
+     }
+ }
+ .grid-items{
+     text-align: center;
+ 
+ }
+ @media screen and (max-width:980px) {
+     .grid-items{
+         margin: 50px;
+         text-align: center;
+     
+     }
+     
+ }
+ .encode-textbox{
+     height: 200px;
+     width: 600px;
+     resize: none;
+     background-color: yellow;
+     
+ }
+ @media screen and (max-width:980px) {
+     .encode-textbox{
+         margin-top: 20px;
+         height: 300px;
+         width: 800px;
+         resize: none;
+        
+         font-size: 30px;
+     }
+ }
+ .decode-textbox{
+     height: 200px;
+     width: 600px;
+     resize: none;
+     background-color: yellow;
+ 
+ }
+ @media screen and (max-width:980px) {
+     .decode-textbox{
+         height: 300px;
+         width: 800px;
+         resize: none;
+         
+         font-size: 30px;
+     }
+ }
+ .decode {
+     margin-top: 30px;
+     background-color: blue;
+     color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   letter-spacing: 2px;
+   
+   cursor: pointer;
+   }
+ 
